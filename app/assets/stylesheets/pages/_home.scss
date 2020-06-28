@@ -32,6 +32,7 @@ h1{
   height: 150px;
   text-align: center;
   padding: 25px;
+  border: 2px solid #F7050C;
 }
 #bild{
   position: relative;
@@ -46,6 +47,7 @@ h1{
   right: 210px;
   padding: 20px 30px;
   border-radius: 10px;
+  font-family: Futura;
   &:hover{
     background: #F7050C;
     opacity: 0.8;

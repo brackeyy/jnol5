@@ -1,1 +1,57 @@
-// Specific CSS for your home-page
+body{
+  background: white;
+}
+h1{
+  color: white;
+  font-family: Futura;
+  font-size: 60px;
+}// Specific CSS for your home-page
+#text{
+  position: absolute;
+  top: 200px;
+  right: 280px;
+}
+#text2{
+  position: absolute;
+  top: 200px;
+  right: 80px;
+  color: #F7050C;
+}
+#text3{
+  position: absolute;
+  top: 300px;
+  right: 250px;
+  color: #F7050C;
+  font-size: 80px;
+  background: white;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 45px;
+}
+#bild{
+  position: relative;
+  width: 100%
+}
+.btn-primary{
+  background: #F7050C;
+  color: white;
+  border: none;
+  position: absolute;
+  top: 600px;
+  right: 180px;
+  padding: 30px 50px;
+  border-radius: 10px 30px 10px 30px;
+  box-shadow: 10px 10px 20px #f7e8e8;
+  &:hover{
+    background: #F7050C;
+    border-radius: 30px 10px 30px 10px;
+    transition: 0.5s;
+  }
+  &:active{
+    background: #F7050C;
+    border-radius: 30px 10px 30px 10px;
+  }
+
+}

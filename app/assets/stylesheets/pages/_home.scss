@@ -9,13 +9,16 @@ h1{
 #text{
   position: absolute;
   top: 200px;
-  right: 280px;
+  right: 300px;
 }
 #text2{
   position: absolute;
   top: 200px;
   right: 80px;
   color: #F7050C;
+  background: white;
+  border-radius: 5px;
+  padding: 0 10px;
 }
 #text3{
   position: absolute;
@@ -25,10 +28,10 @@ h1{
   font-size: 80px;
   background: white;
   border-radius: 100px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   text-align: center;
-  padding: 45px;
+  padding: 25px;
 }
 #bild{
   position: relative;
@@ -40,18 +43,16 @@ h1{
   border: none;
   position: absolute;
   top: 600px;
-  right: 180px;
-  padding: 30px 50px;
-  border-radius: 10px 30px 10px 30px;
-  box-shadow: 10px 10px 20px #f7e8e8;
+  right: 210px;
+  padding: 20px 30px;
+  border-radius: 10px;
   &:hover{
     background: #F7050C;
-    border-radius: 30px 10px 30px 10px;
-    transition: 0.5s;
+    opacity: 0.8;
   }
   &:active{
     background: #F7050C;
-    border-radius: 30px 10px 30px 10px;
+    opacity: 0.8;
   }
 
 }

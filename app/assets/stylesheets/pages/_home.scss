@@ -43,8 +43,8 @@ h1{
   color: white;
   border: none;
   position: absolute;
-  top: 600px;
-  right: 210px;
+  top: 75%;
+  right: 15%;
   padding: 20px 30px;
   border-radius: 10px;
   font-family: Futura;
@@ -56,5 +56,29 @@ h1{
     background: #F7050C;
     opacity: 0.8;
   }
-
+}
+#mukke{
+  position:absolute;
+  top: 50%;
+  right: 60%;
+}
+#one{
+  position: absolute;
+  color: #F7050C;
+  font-weight: bold;
+  font-size: 100px;
+  top: 30%;
+  right: 75%;
+  background: white;
+  border-radius: 10px;
+}
+#two{
+  position: absolute;
+  color: #F7050C;
+  font-weight: bold;
+  font-size: 100px;
+  top: 65%;
+  right: 30%;
+  background: white;
+  border-radius: 10px;
 }

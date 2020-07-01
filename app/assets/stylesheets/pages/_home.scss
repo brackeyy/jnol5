@@ -43,8 +43,8 @@ h1{
   color: white;
   border: none;
   position: absolute;
-  top: 75%;
-  right: 15%;
+  top: 79%;
+  right: 16%;
   padding: 20px 30px;
   border-radius: 10px;
   font-family: Futura;
@@ -59,7 +59,12 @@ h1{
 }
 #mukke{
   position:absolute;
-  top: 50%;
+  top: 45%;
+  right: 60%;
+}
+#mukke2{
+  position:absolute;
+  top: 80%;
   right: 60%;
 }
 #one{
@@ -67,8 +72,8 @@ h1{
   color: #F7050C;
   font-weight: bold;
   font-size: 100px;
-  top: 30%;
-  right: 75%;
+  top: 25%;
+  right: 70%;
   background: white;
   border-radius: 10px;
 }
@@ -77,8 +82,18 @@ h1{
   color: #F7050C;
   font-weight: bold;
   font-size: 100px;
-  top: 65%;
-  right: 30%;
+  top: 60%;
+  right: 20%;
+  background: white;
+  border-radius: 10px;
+}
+#three{
+  position: absolute;
+  color: #F7050C;
+  font-weight: bold;
+  font-size: 100px;
+  top: 60%;
+  right: 70%;
   background: white;
   border-radius: 10px;
 }
